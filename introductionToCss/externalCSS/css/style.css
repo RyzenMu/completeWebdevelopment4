@@ -1,0 +1,10 @@
+body {
+    background-color: rgba(98, 0, 255, 0.651);
+    color: whitesmoke;
+}
+
+hr {
+    border-style: dotted none;
+    border-color: #fff;
+    width: 20%;
+}

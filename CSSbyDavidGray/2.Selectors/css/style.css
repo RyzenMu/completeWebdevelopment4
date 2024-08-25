@@ -1,0 +1,46 @@
+* {
+    font-family: monospace;
+    border: 0.09em solid red;
+}
+.gray {
+    color: gray;
+}
+
+body {
+    font-size: 1.5em;
+    border: 0.2em solid black;
+}
+
+
+
+h1, h3 {
+    color: blue;
+}
+
+p {
+    color: purple!important;
+}
+
+p {
+    color: red;
+}
+
+/* p span {
+    text-transform: uppercase;
+    background-color: gold;
+} */
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+
+
+#second {
+    font-style: italic;
+}
+
+main {
+    color: aquamarine;
+}

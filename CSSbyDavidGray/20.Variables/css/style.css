@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* || RESET || */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* || VARIABLES || */
+:root {
+    /* FONT*/
+    --FF : 'Roboto', sans-serif;
+    --FS : 1.5rem;
+    --FS-XL : 3rem;
+    /*COLOR*/
+    --BGCOLOR : #333333a8;
+    --ALT-BGCOLOR : paleturquoise;
+    --RADIAL-COLOR : whitesmoke;
+    --DARK-COLOR : rebeccapurple;
+    /*GENERAL*/
+    --PADDING : 1rem;
+    --BORDER : 2px solid black;
+    /* SQUARE */
+    --SQUARE-BGCOLOR: papayawhip;
+    --SQUARE-SIZE : max(150px, 20vw);
+
+}
+body {
+    font-family: var(--FF);
+    font-size: var(--FS);
+}
+header, footer {
+    background-color: var(--DARK-COLOR);
+    display: grid;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    background-color: var(--ALT-BGCOLOR);
+    min-width: 500px;
+    justify-content: center;
+    padding: var(--PADDING);
+    border-bottom: 2px solid var(--DARK-COLOR);
+    box-shadow: 0 15px 5px -5px var(--DARK-COLOR);
+}
+main {
+    min-height: 400px;
+    background-image: radial-gradient(var(--RADIAL-COLOR), var(--BGCOLOR));
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding: 0;
+    margin: 0;
+}
+header {
+    padding-left:var(--PADDING) ;
+}
+main {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    gap: min(6vw, 7px)
+}
+
+/*FEATURES */
+.square--highlight {
+    --SQUARE-BGCOLOR: cornflowerblue;
+}
+.square {
+    background-color: var(--SQUARE-BGCOLOR);
+    width: var(--SQUARE-SIZE);
+    height: var(--SQUARE-SIZE);
+    border: var(--BORDER);
+    border-radius: 15px;
+    display: grid;
+    place-content: center;
+    font-size: var(--FS-XL);
+    box-shadow: 20px 10px 0 ;
+}
+
+@media (prefers-color-scheme:dark) {
+    :root {
+        --BGCOLOR: #000;
+        --ALT-BGCOLOR: #333;
+        --RADIAL-COLOR: gray;
+        --SQUARE-BGCOLOR: rgba(207, 152, 207, 0.747);
+    }
+}

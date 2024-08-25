@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.container {
+    font-size: 1.5rem;
+    background-color: skyblue;
+    padding: 1.5em 2em 3em 4em;
+    border: 2px dashed red;   
+    border-top: 3px dotted green;
+    border-right: 4px solid blue;
+    border-top-width: 5px;
+    border-top-style: groove;
+    /* margin-top: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em; */
+    margin: 1.5em 2em 3em 4em;
+    outline: 3px solid red;
+    outline-offset: 5px;
+    outline-offset: -10px; /* negative offset*/
+}
+
+.circle {
+    background-color: gold;
+    width: 5em;
+    height: 5em;
+    border: 2px solid black;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+    margin: 3rem auto;
+    border-radius: 2.5em;
+}
+
+

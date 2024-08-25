@@ -1,0 +1,2259 @@
+1. emoji not working in vscode and in browser.
+2. unsplash is a free image download website.
+3. photo bucket website, used to get a url of your photo, when uploaded to it.
+4. use mdn frequently.
+5. create an account in photo bucket.
+6. use crop-circle.imageonline.co to make image circle.
+7. wiki-game is a website uses links (hyperlink).
+8. table attribute "cell spacing".
+9. table attribute "border".
+10. emojis can be used using unicode code point.
+11. emojipedia.com is the website to get emois.
+12. install dejavu font to get emoji.
+13. update chrome browser to get emoji.
+14. linktomail.com is a website to create a link for your gmail.
+15. enctype="text/plain" is used in form tag to get clean-text.
+16. use github pages for hosting free website.
+17. google drive can also be used for free hosting.
+18. use namecheap.com for free domain name.
+
+CSS:
+1. css validation service is a css validator.
+2. group selectors should be separated by commas, like h1,h2, h3 {}
+3. text-tranform : is used to Uppercase, Capitalize, lowercase.
+4. PARENT CHILD selectors use like h2 span {} without commas.
+5. class selctor can be used for parent child selctors.
+6. * {} selects everything, it is used as a default or reset css.
+7. font-family changes the font .
+8. font : inherit --> used for form tag because it uses it's own font.
+9. font : inherit --> button, input, textarea, select { font : inherit}
+10. main selector is the immediate child of body tag.
+11. main selctor should be used only once. 
+12. !important after a declaration over-rides all priorities.
+13. specificity calculator website gives the order of precedence.
+14. line-height is the line spacing equivalent of msword.
+15. baxkground-color is same as background property.
+16. papayawhip is the best background color.
+17. color can be represented in hexa value #000000(black).
+18. #FFFFFF == #FFF.
+19. #000000 == #000.
+20. #ff0000 == #f00.
+21. coolors.co is a color palatte website.
+22. webaim.com and coolors.co provides constrast checker.
+23. minimum constrast ratio required is 4.5: 1.
+24. h1 is a block level element , so its value can be given as percentage.
+25. ch is the width of the character and is used in text.
+26. vw - 1% of viewport width.
+27. vh - 1% of viewport height.
+28. em --> takes width of the parent.
+29. rem --> taken width of the font-size of the root element.
+30. p*10>lorem for ten paragraph.
+31. use % instead of vw because of a horizontal scroll bar .
+32. if the body content is less, the body size is the size of the content. in order to extend the body to the full height of the document, use min-height = 100vh;
+33. width is often used for block level element.
+34. % is always relative to the parent.
+35. height property cannot be fixed, as it grows with content.
+36. in rem <html> is the root element, by default the root font-size is 16px.
+37. em are used in padding of h1 tag, or on padding on buttons.
+38. (margin(border(padding(tag)))) layers of box-model.
+39. ctrl + shift + i ---> inspect element
+40. rem is calculated on the font-size of the tag which it presents.
+41. reset styles use * {margin : 0; padding: 0;}.
+42. inside reset styles use * {box-sizing : content-box} as default.
+43. margin is not included in the calculation of box in box-sizing.
+44. box-sizing --> border-box is sum of border+padding+content == width.
+45. box-sizing --> content-box content == width.
+46. font-size should be at the top.
+47. shorthand margin will replace margin-left, margin-top, margin-bottom, margin-right.
+48. order of shorthand margin is top, right, bottom, left.
+49. margin 1.5em 2em; means 1.5em for top and bottom; 2em for right and left.
+50. padding 1.5em 2em 3em 4em; means padding top, right, bottom, left.
+51. border-left, border-top, etc also available.
+52. border-top-style: grooved; border-top-width: 5px; are also available.
+53. outline does not come in boxmodel; but outline settings are as same as border.
+54. outline-offset : 5px; gives the space between outline and borders.
+55. outline-offset when given negative value goes into the border.
+56. ctrl+B shortcut for minimizing file-tree in vscode.
+57. margin 3rem auto; auto makes the content centered horizontally.
+58. border-radius is used to make circle.
+59. when border-radius is half of height and width, it makes a circle.
+60. placeholder is a information inside a input text.
+61. text-decoration: underline; underlines the selected text.
+62. text-transform : Uppercase, lowercase, Capitalize.
+63. text-align : justify; left is default.
+64. text-indent: 2px; paragraph indentatation.
+65. line-height : 1.5; is the line spacing, the default line-height is 1.2.
+66. letter spacing is the spacing between letters.
+67. word-spacing is the spacing between words.
+68. font-weight : 800; 400 is the default value.
+69. font-weight ranges from 100-900; 900 is most bolder.
+70. font-style : oblique; is stronger than italic.
+71. font-family: serif; is mostly used .
+72. most popular webpages uses sans-serif.
+73. external fonts are provided by fonts.google.com.
+74. external links should be before the css style sheet, as style-sheet requires it.
+75. after copying the link, copy the font-family css;
+76. importing --> copy the import statement from the google.font page and paste it at the top of css file.
+77. for anchor tag the default text-decoration is underline.
+78. cursor : not allowed --> is the red cross appears on the link.
+79. a: is the psedo-class 
+80. a: visited; is the psedo-class of purple links which one already visited.
+81. a: hover; psedo class is the most widely used psedo class.
+82. dodger blue is very similar to blue color.
+83. a : active; is a state when the link is contionously cliked.
+84. psedo class has higher specificity than a tag.
+85. if we put a: visted; above anchor-tag , the visited is still be applied.
+86. 1.top 2 3.bottom 1. a:visited  2. a:hover 3. a:active.
+87. some features may not work if order changed.
+88. a:hover will always after a: visited.
+89.            the order is.
+              a: visited{}
+              a: hover{}
+              a: active{}
+90. a: focus --> will highlight the selected link.
+91. a: focus will increase the accesability.
+92. for nicer looks use hsl colors for different animations, only change the value of color in hsl. example. hsl(240, 100%, 50%) for hovering  and hsl(140, 100%, 50%) for links.
+93. we can get the same effect by 1. keeping the same color of link as hover and 2. changing the opacity in hover.
+94. opacity value changes from 0 - 1.
+95. opacity can be added within the hsl as fourth value. hsl(140, 100%, 50%, 0.7).
+96. changing the background-color to the same color with lesser opacity, will improve the look of the website.
+97.list-style-type can change the style of the bullet point.
+98. list-style-type : decimal is the default value.
+99. list-style-type : decimal-leading-zero; will put 0 in front of single digit numbers, like 01, 02, etc.
+100. bullet == disc in list-style-type.
+101. html attribute on ordered list , start = "3", will start the number from 3.
+102. html attribute reversed on ordered list will give descending numbers starting from 3, 2, 1.
+103. text-align center in list will position the list text in center and bullets on the left; to overcome this , use list-style-position: inside.
+104. list-style-position: outside; is the default.
+105. color changes for both the discs and the text.
+106. line-height : 1.6; will give more line-spacing in the list.
+107. list-style-image : url('relative path') will allow us to upload image for the bullet points.
+108. list-style is the shorthand.
+109 list-style : bullet url('absolute path') inside.
+110. li selctor will override ul selector.
+111. to change the properties of list-style inside uordered list use ...... ul li {}.
+112. to change only the second item in the list use psedo class nth child.
+113. example of nth child --> ul li:nth-child(2){} 
+114. psedo class nth-child can also accept odd or even as a attribute.
+115. psedo-element starts with two colons ::, is used to style the bullets in ordered/unordered list.
+116. bullets is called marker in css e.g :: marker.
+117 ::marker {font-size :1.5em} 
+118. list-style will over list-style-type.
+119. in-order to override list-style use only list-style.
+120. to change the size of the bullet , use font-size inside :: marker{font-size : 1.5em}.
+121.::marker {content : "some text"} will change the bullet to text.
+121. svg can be put in content instead of text.
+122. list attribute value="27" will give the exact value.
+123. border-radius : top-left top-right bottom-right bottom-left;
+124. border-top only gibes border to the top.
+125. cool trick --> a:hover, a:focus {background:#333; color:smokewhite; cursor: pointer;}.
+126. anchor tag is not a block level element.
+127. to change anchor tag to block level element use a {display : block}.
+128. by default anchor tag is a in-line element.
+129. paragraph are block-level elements.
+130. span is an in-line element.
+131. margin-top, margin-bottom not available for in-line elements.
+132. height property not available for in-line elements.
+133. but padding is available for in-line elements.
+134. so, in order to apply padding change display to inline-block.
+135. block level elements stack on top of each other. it creates new line.
+136. in-line elements do not stack on top of each other, it does not create new line.
+137. in-line elements have width of the content.
+138. block-level elements have 100% width.
+139.  in-line block is used to turn links as buttons.
+140. li is a block level element.
+141. a is a in-line element.
+142. for inline elements we can use margin-inline for creating marging right and left.
+143. two classes can be provided for an element e.g. <div class= "block left"><div>. In here there are 2 classes 1.block and 2. left.
+144. margin-right: 1rem; should be provided for the left floated element.
+145. shift+alt+downarrow to copy the highlighted in vs code.
+146. clear will clear the float property. clear: both; will clear both  float:right; float left;.
+147. bisque color is very attarctive color.
+148. overflow: auto; will keep the float:left; and float: right; to adjust for every section.
+149. overflow is a legacy approach.
+150. the newest way to do the same is by display: flow-root;
+151. column-count:3 , alingns every element inside the class into columns.
+152. when screen size becomes less, the paragh adapts and last column becomes less.
+153. column-width:250px; fixed column width and never will be less than 250 px.
+154. column-rule is same as a border.
+155. spacing gap- 3rem is like padding.
+156. the first-element in the columns have a margin-top, but other columns do not have margin-top, so in-order to compensate use margin-top:0;.
+157. margin collapsing is the merging of margin-bottom and margin-top of consequent element.
+158. strange things happen like half the padding in column and the rest in another column. to counter that we use break-inside:avoid;
+159. break-before:column; forces to have more column, as it likes to be always ion the next column.
+160. unicode-table.com gives html code for various quotations.
+161.  column-span: all; property , just extends it to all the columns , breaking the columns.
+162. margin-top on a class inside another class is less specific than the specific element tag inside a class.
+163. white-space: nowrap; does not wrap into smaller pieces.
+164: position:static: is default for all elements.
+165. position: absolute; overrides all comes out of all the class.
+166. e.g. top: 0; moves to the top;
+167. position: relative; makes the box to move inside the parent.
+168. if more than one position:relative; it picks the most closest div.
+169. position's relative and absolute complement each other.
+170. position: relative; gives relative position to its parent.
+171. position: fixed; is relative to the screen. it always remains the same irrespetive of any relative.
+172. fixed position remains the same , even if we scroll the page to the bottom.
+173. the top-most element is the last element in the html. other elements goes underneath the top-most element.
+174. to the the underneath element to the top-,ost element use z-index:1;
+175.position: sticky ; is little different then position: fixed;
+176. sticky will maintain its position until the length of the container. then it moves with the page or follows the flow of the page.
+177. that is it will remain fixed within the container only.
+178. to remove invisibly use position : absolute; and top -1000px;
+179. The footer tag in html will arrange the lements horizontally.
+180.href="#id" will take to the particular section within the page.
+181. use width : 100%; to cover entire width of the page.
+181. other way to have full width of footer is position: sticky; bottom:0;
+182. scroll-behaviour: smooth; will scroll the page smoothy. this property should be inside a html tag and should be on top of css.
+182. display :flex; should be applied to the parent container containing all the eleemnts.
+183. once display: flex; is applied to the container, the verital eleemnts are now converted to the horizontal elements.
+184.justify-content: flex-start; is the default value for flex.
+185. 
+185. justify-content has values like flex-start, flex-end, center,space-around, space-between, space-evenly etc.
+186.gap is used in flex for the immediate gap between the elements.
+187. justify-content: center; is the most used property.
+188. similarly justify-content:space-around; is also common;
+189. the difference between space-around and space-between is space-around will have a margin at the start while space-between does not start with a margin space..
+190. align-items:   ; is used to align items vertically in display flex.
+191. align-items : flex-end; will display the items at the bottom of the container.
+192. align-items: flex-start; is the default value in the display flex.
+193. align-items have properties like flex-start, flex-end, center, 
+194. flex-direction: row; is the default value , 
+195. flex-direction: column will display the items vertically stacked.
+196. align-items: flex-start; will move the items to the left instead of top-bottom because of the change in the flex-direction: column;
+197. flex-direction : row-reverse will keep the elements horizontally and in descending order.
+198. flex-wrap: nowrap; is the default.
+199. if the elements do not shrink with the html page use flex-wrap: wrap; and it will adjust the page.
+200. flex-flow: row wrap; is the shorthand for flex-direction: row and flex-wrap: wrap;
+201. align-content : flex-start; is the alignment of elements after the wrap. 
+202. first align-items is used after that align-content is used.
+203. align-content have values like flex-start, flext-end, center, space-around, space-between, space-evenly, 
+203. we can also the flex alingment by adjusting the eleemnts itself.
+204. if display: flex is used inside an element, it will change the alignment within the element.
+205. like changing the position the number within a box.
+206. flex-basis : 100px, will give the width of 100 px to the elements.
+207. flex-grow: 1; will grow the elements to its full width equally for all the elements, while flex-basis is restricted to its absolute value.
+208.  psedo selctor like .box:nth-child(2){flex-grow:2}, will grow the second child more than the first child.
+209. flex-shrink is the opposite of flex-grow.
+210. shorthand-->flex : flex-grow flex-shrink flex-basics;
+211. order will put the element to the value relative to its current position, e.g order:-1 will move it to the left, order: 4 will move it 4 position to its right.
+212. flexbox froggy is a website to practice flexbox with 24 challenges.
+213. grid-auto-flow: row; is the default value.
+214. to change the block-elements to align horizontally, we use grid-auto-flow: column.
+215. grid-template-column: 200px 100px 200px; is the easiest way to set the 6 elemts into 2 rows of 3 columns and propotinate size.
+216. we can use fraction (fr) units instead of px in the grid-template-columns. it will ocuppy the entire width of the page.
+217. we can also mix px and fr inside grid-template-columns.
+218.  repeat is used inside the grid-template-columns to repeat the column width values. e.g grid-template-columns : repeat(4, 1fr)--> 4 is the number of columns and fr is the units.
+219. in repeat there should be a comma in between the no.of. columns and the unit width.
+220. grid-auto-rows : 100px; will increase the height of the grids by 100px.
+221. grid-auto-columns have the value of minmax function, where one can specify the min and max as a function. e.g. grid-auto-columns: minmax(150px, auto);
+221. row-gap: gives gap between rows.
+222. column-gap: gives the gap between columns.
+223. shorthand for gap--> gap : row column;
+224. e.g gap: 1em 0.5em; here 1em is the width of the row and 0.5em is the width of the column.
+225. grid-column-start:1; the grid starts at the 1st line which is start of the grid.
+226. grid-column-end : 4; the selected grid element will have the width of the end of the 4th line.
+227. grid-row-start:1 will adjust the height of the grid element.
+228.grid-row-end: 3; means the gris element have the height of 3rd line from the start.
+229. shorthand for grid-column-start and grid-column-end is grid-column: start / end, and vice-versa for grid-row-start/end/
+230. to move the chaacter inside the element use display: grid; align-content: end;
+231. place-content: end center; is the shorthand for align-content: end; and justify-content: center.
+232. header.header.el + enter will give header tag with two classes 1. header and 2.el.
+233. grid-template-areas is used to assign names of the page.
+234. grid-area: acronym: will be used in each selector in the grid-template-areas.
+235. grid garden is a website where one can try and learn grid layout exercises. 
+236. www.cssgridgarden.com which has 28 exercises to learn css grid.
+237. image width and height are given in the html without units, because incase the css failed to load, the html sizing will prevent the page from collapsing.
+238. images are inline elements.
+239. figure element is used to make images in the html.
+240. title="" , can also br provided inside img tag.
+241. figure element has also comes with figcaption element.
+241.   span element is an in-line element.
+242. use imagepedia.com to download beautiful images.
+243. background-image is used in css.
+244. background-repeat : no-repeat; will not repeat, the background-image.
+245. background-repeat: repeat is the default value.
+246. background-repeat: repeat-y; will repeat only in the y-axis.
+247. background-repeat: repeat-x; will repeat bgimg in x-axis.
+248. background-size: cover; will give the full picture of background-image.
+249. background-image: contain will shrink the background-image.
+250. text-shadow is a property to enhance the visibility of text ; text-shadow : x-axis y-axis depth color; e.g text-shadow : 2px 2px 5px black;
+251. to enhance the visibility of the text we can have background-color with more transparency.
+252. to enhance the visibility of the text we can have some 1.padding and some 2.border-radius.
+252. background-position:center center; will position the background image horizontally and vertically center.
+253. values for background-position : top/center/bottom left/center/right;
+254. aliceblue color is mostly white with little blue tinge.
+255. background-image : linear-gradeient; is the color shifting to another color.
+256. linear-gradient(steelblue,purple, white) will transform stelblue to white from top to bottom.
+257. linear-gradient has a parameter "to" which specifies the direction.e.g background-image : linear-gradient(to left, steelblue, white)
+258.  linear-gradient (to bottom, steelblue, white) is the default value.
+259. we can have 2 or more background-images which are separated by comma.
+260. background-position: right center; here right corresponds to the first-image and center corresponds to the second-image.
+261. background-size : 20% auto; here the 20% corresponds to first-image and auto corresponds to second-image.
+262. -webkit-background-clip: text; will take away the background image , keeping only the text.
+263. background-clip : text; is the same as the above for firefox.
+264. background-clip: text; is used to have a text with a color of a choosen image.
+265. shorthand for background should be written as background: repeat-y right center url("../img/image.png"), no-repeat linear-gradient(to left, steelblue, white) 
+266. media quries are provided with meta tag in the head section.
+277. meta tag have properties like name="viewport" width="device-width" initial-scale=1.oblique
+267. This tag is important for responsive design.
+286. syntax for media queries is @media media_type and (condition:breakpoint) {
+    //css rules
+}
+287. media queries aims at mobile-first design.
+288. the properties which can be modified in the media queries are orientation: landscape; min-width: 481px; min-aspect-ratio : 16/9;
+289. some common media query breakpoints: are 
+<481px -- mobile devices,
+
+481px-768px -- ipads, tablets; 
+
+769px-1024ps -- small screens;
+
+1025px - 1200px -- Desktops;
+
+1201px and greater -- extra large screens and TV.
+290. similarly Bootstrap and tailwind have their way of breakpoints.
+291. background-image : radial-gradient() is also used similar to linear-gradient;
+292. radial-gradient will always start from center.
+293. flex-grow will make the element grow upto its full height.
+294. gris-template-columns : 100% ; will make the elements as a block element.
+295. display : none; will remove the eleemnts.
+296. quotes can be included in the html by using <q>.
+297. by default image is an inline element.
+298. scroll-margin-top : 8rem; 
+299. scroll-behavour: smooth will scroll the page smoothly.
+300. scroll-margin-top will keep a margin of given rem from the top.
+301. width : min() function has two parameters , the growth of the width and the maximum width.
+302. order will keep the value on the top/front as like a array index.
+303. psedo classes use one semicolon.
+304. psedo elements use two semicolons.
+305. is() used to combine two psedo classes.
+306. exapmle. nav : is(a:hover, a:focus);
+307. any-link, will perform css both on visited, and link.
+308. :is() will give the specificity.
+309. :where() has a specificity 0 for all.
+310. use psedo classes without space.
+311. .class:target{border: 2px solid red;} will highlight the selected.
+312. .class img[alt]{...} , here alt is the attribute, 
+313. img:not([alt]) helps us to find all the img tags without alt attribute.
+314. we can use .class:nth-child(odd) and .class:nth-child(even).
+315. here .class figcaption:: after {content : ' hello';} will place the word hello after every caption.
+316. display : block; will keep the contents in a new line, forcing other elements to next line.
+317. content: open-quote; will place single open quote (') .
+318. to workout position: absolute , we must have position: relative in the parent element.
+319. card figcaption::first-letter {
+    font-size : 3rem;
+} will increase the first letter in figcaption to 3rem in size.
+320. we can also use first-line e.g 
+.card figcaption::first-line {
+    font-size: 4rem;
+}
+330. VARIABLES are declared inside a psudo class called variable e.g :variable {};
+331. variables in css start with 2 dashes. 
+332. variable are used inside the keyword var(--variablename).
+333. box-shadow --> will provide nice shadow.
+334. to create 10 divs press enter after typing div.square*10.
+335. padding : 10px 0; means padding is 10px on the top and 10px bottom and 0px on left and right.
+336. @media (prefer-color-scheme:dark) will set up a dark mode on the page.
+337. the darkmode is selected within the windows/linux.
+338. text-align: justify; will justify the given text.
+339. min(arg1, arg2) and max(arg1, arg2) are most commonly used functions in css.
+340. clamp(min, ideal, max) is a function , which will keep minimum, ideal and maximum value.
+341. calc() is also a function  which computes .
+342. filter: brightness(150%) --> will increase the brightness of the element by 150%, filter : brightness(+150) is the opposite of opacity.
+343. filter : hue-rotate(180deg) will give the opposite color in the color wheel.
+344. content : attr(data-tooltip) is an attribute function which will place before/after the given value for the attribute.
+345. minmax is a function which is always used with grid, grid-template-colums is always used with grid.
+346. display: grid; place-content:center; will place the contents in the center.
+347. tranform, transitions are animation properties.
+348. transform: translateX() will move the selected element in the x direction.
+349. tranform: translate(x, y); will move the elements correspondingly.
+350. like hue-rotate , tranform:rotate(), will rotate the element.
+351. transform:rotatez(180deg); will rotate the element clockwise.
+352. transform: scaleX() will zoom the element.
+353. transform: scaleX(120%) will grow the element in left-right direction.
+354. transform: scaleY(120%) will grow the element in top-bottom direction.
+355. transform: scale(x%, y%) is the shorthand for scaleX and scaleY conbined.
+356. transform:skewX(45deg), will create a 45deg tilt.
+357. transform:skew(xdeg, ydeg) will create a skew tilt in the x and y direction simultaneously.
+358. transition-property: background-color; transition-duration: 3000ms; will tranform the background color in 3000ms.
+359. transition-delay will delay the transition in seconds.
+360. transition: all 3s linear 0.5s; is the shorthand , where all is perform all the transitions , 3s in transition-duration and 0.5s is the transition-delay and the linear is the transition-timing-function.
+361. transition-timing-function: ease; will start the transition slowly then perform the transition fastly, finally it will end the transition slowly.
+362. transition-timing-function: linear; will space the time evely thoughout the transition.
+363. animation-timing-function : ease-in-out; is used in the animation.
+364. animation-duration: 5s; is given as mentioned.
+365. animation-name: ...; is the animation name given to the animation.
+366. animation-iteration-count: 5; will repeat the animation 5 times.
+367. animation requies key-frames for animation.
+368. animation-direction : normal; is the default direction.
+369. animation-fill-mode: backwards; is the default, while animation-fill-mode will keep the settings to its initial state.
+370. to make the end state to be given in the animation, use settings animation-fill-mode: forward ; and animation-direction: normal;
+371. animation: 5s ease-in-out 0.5s 2 normal forwards slide; is the shorthand ; here
+5s - duration
+ease-in-out - steps
+0.5s - delay
+2 - no of times
+normal - animation-direction
+forwards - animation-fill-mode
+slide - animation name.
+372. padding : 0.25rem 0.5rem; means 0.25rem padding on the top/bottom and 0.5rem padding on the left/right.
+373. background-color : transparent. means no color, it will posses the background.
+374. transform-origin: top center; will start the animation from top and center.
+375. in anchor tag href='/' means the root page.
+376. input, button, textarea will have its own font despite applying , so to counter this use 
+
+input, button, textarea {
+    font : inherit;
+}
+
+377. clamp (min, avg, max) function is used for responsive design.
+378.  for further clarification use www.caniuse.com website.
+379. <center> tag is used to center its elements.
+380. colorhunt.com is a website in which professional developers use their colors.
+381. browser default css will give the default css used in the browsers.
+382.  pesticide chrome extension will give the boxes of the html.
+383. freuently use devdocs.io for css/html.
+384. cell spacing is a html property used inside td, tr etc. 
+385. cell spacing is now obsoute, we can use border-spacing instead.
+386. css reference mdn , is a website for any properties.
+387. favicon.cc is a website to download favicons.
+388. use link tag with icon to get the favicon on the page.
+389. visibility : hidden; is a property wiil hide the element, but it will keep the space.
+390. relative position is relative to what is then static.
+391. absolute position is relative to its parent.
+392. both the parent and child should have a position: absolute, to work out inside an e;ement.
+393. fixed == sticky of position.
+394. all website should be provided with a web-safe fonts, which is available in cssfontstack website.
+395. lorem ipsum generator .com website shows various facts about loremipusum.
+396. flaticon is a free website to download cool vectors.
+397. giffy.com is a free website for free gifs.
+398. em is a responsive web design parameter.
+399. font size gets multiplied every time whwn the property is also present in its parent.
+400. rem units are not affected by up-stream size changes. please use rem's .
+401. rem is least error prone.
+402.  r means root in rem.
+403. line-heights should be given as a single unit , without a units.
+404. margin: auto will center the eleemnts.
+405. float is an important property .
+406. floaat: left;
+407. float: right;
+408. float: top;
+409. float : botom;
+410. clear is the anti-sense of float.
+411. clear will put the elements in the next line.
+412. float will give more problemns.
+413. !!!! avoid using floats!!!
+414. instead try using positioning : relative, absolute, and fixed.
+415. always use light grey color for text, it will be very smooth.
+416. use css3buttongenerator.com for awesome buttons.
+417. use frontendmentor.com challenges to improve frontend skills.
+418. breakponints of bootstrap are 
+419. sm - small
+420. md - medium
+421. lg - large
+422. container - fluid will take the entire width of the web page.
+423. container will have default left/right margin.
+424. shoelace.com is a famous website for bootstrap grid layout.
+425. column can be given certain width by using class col-3, and col-4 etc.
+426. variable width content is the giving breakpoints like sm, md, lg to col class.
+427. vertical alignment possible by providing align-items-start, align-items-center and align-items-end inside the row div.
+428. use mx-5, my-5 for marginx and marginy adjustments in gutters.
+429. use gx-5, gy-5 for gutters(column-gap) adjustments between columns
+430. no-gutter will remove all the gutters.
+431. px-4 means padding of container class .
+432. The buuton should conatain 2 class like "btn btn-primary" .
+433. By default the button will wrap. to enable no-wrap use class "text-nowrap".
+434. To move within a html tag by using anchor tag use id="section1" and href="#section1".
+435. for outline buttons use "btn btn-outline-primary".
+436. button comes in 3 sizes 1.btn-sm
+                             2. btn
+                             3. btn-lg
+
+437. use "disabled" keyword inside button tag to disable it.
+438. anchor tag have class .disabled to turn it into disabled.
+439. .disabled inside anchor tag can be activated by using keyboard focus in some browsers. in order to avoid it use tabindex=-1 & aria-disabled="True".
+440. src="https://picsum.photos/300/200 is tha api of images which gives new images whenever refreshes.
+441. card utility w-75 stands for width-75%.
+442. <small class="text-muted">...</small> is used for footer.
+443. bg-primary inside card class give give background of blue color.. as same as outline
+444. bootstrap heading are responsive.
+445. .h1 , .h2 etc can be provided inside p tag and corresponsing sizes can be meet.
+446. instead of h1, h2 we can use display class inside div .
+447. alignment of text can be done using text-center and text-end classes.
+448. class .list-inline inside ul tag and class .list-inline-item inside li tag will show the list in left-right direction.
+449. class .img-fluid inside img tag will make the images responsive.
+450. thumbnail will give rounded border.
+451. .clearfix class will remove the float.
+452. class .d-block .mx-auto will center any element.
+453. .rounded class will make the image rounded.
+454. mt-5 means margin-top-5
+455. there is only 0-5 levels in mt-5;
+456. to change the text color use text-primary, text-danger, etc...
+457. w-25 h-25 is width-25% and height-25% 
+458. bg-warning will put the backgound in orange color.
+459. to center use mx-auto.
+460. text-white will make the text white color.
+461. use min-height for empty div.
+462. use bg-primary and dont not use bgcolor-primary.
+463. use h-300 for height.
+464. use d-inline for chaing it to inline.
+465. use text-left, text-center, text-right for text alignment.
+466. d-none will remove the element
+467. opacity-50 will change the opacity to 50%.
+468. overflow-auto will gie the sidebar.
+469. .shadow-lg will bring in shadow.
+470. class .table and .table-dark will make the table dark.
+471. table-bordered will make the table bordered.
+472. table-hover will make the table-hover
+473. table-striped will make the zebra-table.
+474. table-info will change the color of the table light blue.
+475. alert messages can be inserted into the page by providing alert.alert-primary and role = "alert".
+476. icons can be inserted in the tag by using svg tag inside the alert tag.
+477. dismming alerts will close the alert whwn the close button is clicked once.
+478. button should be added inside alert by using button tag.
+479. toasts will always used with a special script tag.
+480. tabs allows us to change content.
+481. nav -tabs will take entire page.
+482. for icons we can put entire html tag or
+483. copy and paste cdn in head tag and put i tag inside body.
+484. text-center will make all the elements in it centered.
+485. select tag with option tags will give selections .
+486. use form-floating for text-area for variable width.
+487. modal works by separate java script and button .
+488. tool tips are worked with javascript.
+489. pop over is similar to tool tips.
+490. scroll spy is a visual hint , where the reader's location.
+491. codeply ia a free website which can include react, bootstrap etc.
+492. codeply consumes more cpu power.
+493. codeply works on brave browser.
+494. wire-framing is a process of sketching the website.
+495. mock-up is the look of the final product. if website is made bu other person we can give mockup to them.
+496. ui-patterns.com will give the most used ui-patterns.
+497. www.awwwards.com is full of complete website templates.
+498. carousal is a slide show of pics.
+499. dribble is a useful website full of insiprational templates.
+500. sneekpeekit gives the outline to draw the design.
+501. balsamiq.com is the widely used wire frame tool.
+502. placing ms-auto to the ul tag will push the navbar items to the right. 
+503. airbnb website is best known for layouts.
+504. to make columns responsive inside a grid use .col-md-6.
+505. use font awesome website to get icons.
+506. grey color hash code --> 8f8f8f
+507. border-radius will make the image round.
+508. in the options section of the carousel they given the attributes for animatiomation e.g data-interval="1000" .
+509. in carousel data-ride="false" means the movement will start/stop only during the keyboard presses.
+510. copy the button tag from another carousel and change the href attribute to the id of   main carousel.
+511. data-ride="false" inside carousel tag will not autoplay.
+512. atleast one carousel-item should have a active class.
+513. aria-hidden="false" means the screen reader for the blind, which avois reading prev button and next button in this scenario.
+514. bootsnip is a website for themed templates on bootstrapo.
+515. card-deck will make the cards aligned sideways.
+516. btn-block will take the full width of the card.
+517. !!! important !!! website mobile friendly test .
+518. use lamsoft website .
+519. we can have two websites like facebook  
+            1. facebook.com 
+            2. m.facebook.com //mobile version.
+520. @media screen {} works on specific screen size.
+521. @media speech {} works on specific voice.
+522. @media print {} works on print.
+523. combiing media queries example .. 
+            @media (min-width:200px) and (max-width: 600px) {
+                
+            }
+524. code golf is a competition where a shortest code wins price.
+525. !!! stack exchange !! is a website like stack overflow.
+526. 
+
+fIGMA :
+1. go to community in the bottom.
+2. select any illustrations.
+3. click on duplicate. or open in figma.
+4. 
+
+WEB DESIGN:
+1. Analogous colors are shades of same color.
+2. Analogous colors used in navbar, logos.
+3. Analogous colors do not stand out.
+4. Complementary colors are opposite colors in color wheel.
+5. Complementary colors pop up.
+6. Do not not use Complementary colors for text and its background.
+7. Adobe color is a website where one can get color pallete wheel.
+8. one can use colorhunt.com for choosing colors.
+9. serif family is most commomly used in web.
+10. sans-serif is mostly used in web.
+11. our brain first sees a bigger font followed by snmaller fonts.
+12. bigger, bolder and square things attract first.
+13. use more layout.
+14. layouts are more readle.
+15. alignment are more readable.
+16. most luxrous ewebsite  use more whitespace.
+17. ui design is a separate study.
+18. ux design is a separate study.
+19. us is called user experience.
+20. ux 1. simplicity.
+21. ux 2. consistency.
+22. f-pattern of eyes.
+23. z-pattern of eyes. e.g facebook.com
+24. ux 3. mobile-first design.
+25.   do not use more notification.
+26.  dark patterns.
+27. !!! Daily UI !! is a free website which gives daily exercises.
+28. !!! Collect Ui !!! is a free website which gives results of daily ui website exercises.
+
+
+COMPLETE JAVASCRIPT 2021
+1. The lecturer name is "Jonas".
+2. alert is the important function used in java script.
+3. hide() will hide an object.
+4. a variable name cannot start with a number.
+5. errors will automatically shown in console without console.log.
+6. symbols cannot be included in variables.
+7. however underscore _ and dollar sign $ are allowed.
+8. new is a reserved keyword in javascript.
+9. function is a reserved keyword in java script.
+10. name is also a reserved keyword.
+11. donot use capital letter for variables.
+12. capital letters are used for classes.
+13. constants like PI shown in other colors.
+14. There are two types of data they are primtives and objects.
+15. Numbers are floating point numbers.
+16. There are Seven primitive Data Types.
+17. 2.Strings.
+18. 3. Boolean.
+19. 4. Undefined is the value take by the variable, that yet not defined.
+20. e.g let children;
+21. 5. Null means 'empty value'.
+22. 6. Symbol - value that is unique that cannot be changed.
+23. 7. BigInt - Larger Intergers that numbers cannot be hold.
+24. JS is dynamically typed language, means The data types of a variable can be changed, within a block.
+25. typeof() is a special type of operator, used to find types of variables.
+26. type of 'null' is an object.
+27. let and const are introduced in ES6 before that var is mostly used.
+28. mutate a variable means changing the value of the variable.
+29. mutate is also refered as re-assigning.
+30. empty const variable is illegal.
+31. using of var type should be completely avoided.
+32. var is used mostly in the older code bases.
+33. let is block scoped.
+34. var is function scoped.
+35. using of let, const and var is not compulsory.
+36. one can declare variable like python.
+37. use mdn operator precedence website for finding operator precedence.
+38. always use back ticks for template literals.
+39. type conversion is when we manually change the type.
+40. type Coersion is when js automatically converts the type.
+41. input fields output comes as strings in the js.
+42. return false inside onsubmit is necessasary not to refresh the page.
+43. to convert astring to number use Number();
+44. to convert a number to string use String();
+45. the + operator in js will convert number to string.
+46. while - operzator in js will convert string to number.
+47. like + operator multiply operator(*) and divide operator(/) will convert string to a number.
+48.   > and < operator will convert string to number.
+49. except the + operator all operators will be converted to numbers.
+50. boolean is implict and always type coersion.
+51. === is called strict equaliry operator.
+52. avoid loose conditions.
+53. prompt window in js will give a aleert box. 
+54. prompt window is so cool.
+55. not equal to != is also known as different operator.
+56. statement ends with semicolon;
+57. expresions reduce to a value.
+58. There are 3 types of conditionals i.if ; 
+                                      ii. switch ;
+                                      iii. ternary ;
+59. transpiling or poly filling in Javascript is converting the ES6 code to ES5 code.
+60. babel is used for transpiling.
+61. 'use strict' at the top of the js file is the activation of strict mode.
+62. strict mode will give all errors in the code.
+63. so always use strict mode.
+64. strict mode also provides the list of key words that will be added in the future.
+65. interface is an reserve word in js.
+66. strict mode throws error on using interface as an variable.
+67. like interface, private is also a reserved keyword.
+68. calling = invoking = running all same for a functon.
+69. the way to call a function is asign the function to a variable and log the variabvle.
+70. functions are values in js, hence there are stored inside a variable.
+71. hoisting only works with function declaration.
+72. hoisting does not work with function expression.
+73. hoisting is calling a function before it declared.
+74. function expressions are widely used in java script.
+75. the arrow function is the simplest form of function.
+76. it does not use parenthesis, function keyword, curly braces and return keyword.
+77. arrow function doesnot support this keyword.
+78. but traditional function declarations amd function expressions will support this keyword.
+79. only primitive values are immutable.
+80. so one can change an element in an array eventhough it uses const.
+81. type coersion will not work on array methods.
+82. includes method often used in conditionals.
+83. prompt will acept a input string from document window.
+84. this is a special variable.
+85, this keyword can be replaeced with the object name.
+86. Math.Trunc will produce the absolute value.
+87. to apply pretieer use "default formatter" and select "esbnp.prettier".
+88. npm install live-server -g 
+89. to start the live-server just type live-server in the terminal.
+90. codewars.com is a website that has 1000's of coding chalenges online.
+91. console.warn() gives warning message in the console.
+92. console.error() gives error message in the console.
+93. console.table(obj) gives the table structure of the object.
+94. debugger; command in the js file will open the debugger in the browser.
+95. box-sizing : border-box just eliminates the padding.
+96. innerText is same as textContent.
+97. dom has child element and parent element.
+98. dom is a api.
+99. fetch is a api.
+100. timer is a api.
+101. clicking without entering number in a input field will return 0.
+102. while doing styling through js always use string and camelCase.
+103. addEventListener is used for click, keydown and mouseover events.
+104. modal window uses display - none, diaplay - block,
+105. event handler is same as event event listener.
+106. classList is the property which modifies the clasees of the html code.
+107. inside addEventListener do not use parenthesis() , otherwise js will start running all the function, even without clicking. 
+108. use only the function name inside the addEventListener.
+109. keyboard events are global events.
+110. there is only 3 key events
+        1. key down
+        2. key up
+        3. key press
+111. the information of the pressed key is stored in the event.
+112. modal.classList.contains('className') will check the truthy value of a class.
+113. scope chaining
+114. element.classList.toggle('classname') will add and remove when clicked.
+115. function is also block scoped only when 'use strict' mode is enabled.
+116. function behaves like var when strict mode is not enabled.
+117. if a varbile is declared with same name as of outer scope then the varible will be scoped inside the function only.
+118. javascript have hoisting because of technique "Mutual recursion".
+119. variable declared with var will be hoisted.
+120. undefined is a falsey value.
+121. this keyword is for every execution context, like objects and functions.
+122. this keyword in a method will point its class or object.
+123. this keyword in a function(without strict mode) will point the global window object.
+124. this keyword in a function(with strict mode) will give undefined.
+125. arrow functions do not get this keyword.
+126. arrow function's this keyword will point its surrounding. Also known as lexical this. (window)
+127. this keyword used by a event listener will point to its DOM element.
+128. method borrowing is getting one method of other object to the new object.
+129. an object literal is not an code block.
+130. objects are not blocks.
+131. in js if a property is not available, then it will show undefined.
+132. this keyword within a function which is inside another function gives undefined.
+133. to counter the problem of undefined inside nested function use keyword self pointing to this.
+134. some times self keyword is interchanged with that keyword.
+135. another solution to solve nested functions is having an arrow function, which does not have its this keyword but borrows from its parents.
+136. also arrow function does not have its arguments keyword.
+137.while assigning one object to another object , the properties of the each objects points to same location, resulting in modification of one objects affects another object.
+138. Primitive datatype are number, string, boolean, undefined, null, symbol, bigint.
+139. Objects data types are object literals, Arrays, Functions, and Many more.
+140. Object types are also known as reference types.
+141. primitives are called as primitive types.
+142. primitve types are stored in callStack which is execution context.
+143. reference types are stored in heap .
+144. in case of let we can assign a empty object to the variable thus making a different memory address for the second vaiable.
+145. in case of const we can use Object.assign({}, obj); 
+146. there is one limitation in Object.assign that is it makes only shallow copies (only one lebel), if there are nested objects the memory address remain same for nested objects.
+147. deep clone is a method to make deep copy of objects.
+148. deep clone is achieved by using various libraries like loadDash.
+149. multiple assignments is different from array destructiring.
+150. multiple assignments will have the no of variables equal to array length.
+151. array destructuring will have less variables than  array length.
+152. to exchage variables without temp use array destructuring
+153. like [first, second] = [second, first];
+154. for nested arrays use vraibles consisting of arrays like [q, w, [e, r, t], y, u];
+155. if variables are out-numbered by the values then the extra values will be undefined.
+156. to tackle this we can use default values.
+157. to destructure objects use curly braces.
+158. to destructure objects we have to use exact property name.
+159. destructuring objects is very useful in getting data from api like weather data and movie data.
+160. assigning variable names other than property name have to be done using :, like {propert1: var1, property2:var2}.
+161. assigning other variable names will be helpful in getting 3rd party data.
+162. default values can be assigned to destructuring objects using "=" sign on new variable.
+163. in js , a line cannot be started with "{" because js consider this as a code block.
+164. in order to overcome the above we have to use parenthesis.
+165. while objects are given as parameters they can be arranged in any order.
+166. ...spread operator does not require a variable and commas.
+167. iterables are arrays, strings, maps but not objects.
+168. ...rest operator should be the last element.
+169. there should be only one rest operator.
+170. function can have ...rest arguments
+171. the rest arguments will make arguments into an array.
+172. logical operators like and or can use any datatype, return any data type and short-circuting.
+173. nullish value is different than falsey values.
+174. ?? is the nullish coalseing operator.
+175. in nullish operator 0 and empty string '' are truthy values.
+176. ... spread operator can destructure a string and elements will be its letters.
+177. in for of loop we can use continue and break statement. but in other loops we cannot use continue and break statements.
+178.entries() is a keyword used to get the index number of a list in for-of loop.
+179. enchanced object literal 1 is having an external object with its variable name itself.
+180. enhanced object literal 2 is having an function without function keyword.
+181. enhanced object literal 3 is having variable name inside an array to compute.
+182. optional chaining  is ?.
+183. optional chaining is used when we are not sure about the existence of the property in case of web api's.
+184. optional chaining returns undefined. 
+185. to use a separate variable name as a property name do not use . dot notation.
+186. to use a separate variable name as a property name use [] bracket notation.
+187. nullish operator is double question mark ??.
+188. optional chaing is single question mark with fulll stop ?.
+189. nullish operator is used in place of || , &&.
+190. all the Object.keys(obj), Object.values(obj) and Obj.entries(obj) will result array.
+191. the result of Object.entries(obj) is [key, value].
+192. set will convert array into a set.
+193. set will convert string into a set.
+194. instead of length , the set will have size.
+195. instead of includes, the set will have has.
+196. instead of unshift, push , the set will have add.
+197. instead of pop, shift , the set will have delete.
+198. sets do not have a index number.
+199. one cannot retrive an element from a set using index number.
+200. clear method on a set will delete all the elements in the set.
+201. sets only works on iterables.
+202. map is similar to object.
+203. in map the key is of any data type.
+204. while in object the key is of type dtring.
+205. set method in map is very similar to add method in set.
+206. unlike array have length, the map has size.
+207. the another easy way of creating maps in 2-dimensional arrays.
+208. Objects can be converted into maps using Object.entrities(obj).
+209. maps are also iterables.
+210. conversion of Map to an array can be done using destructuring.
+211. strings cannot be mutated they are orimitive.
+212. boxing - js puts string as a object.
+213. use undefined to skip a value in default parameters in a function.
+214. while passing a primitive data type will not change, as it will make a separate copy, this is called pasing by value.
+215. while passing a reference data type it will change in the object/array/map etc because it makes a copy of its memory address, this is called passing by reference.
+216. java script does not have passing by reference.
+217. a function which calls another function is called a call-back function.
+218. a function which is called by another function is called call back function.
+219. functions do have methods and properties.
+220. functions do have properties e.g name.
+221. functions do have methods e.g bind.
+222. a method of a object which itialized to a outer variable is a copy of that function and does not posses this keywors.
+223. modern javascript does not use apply method on function.
+224. call method called immediately.
+225. bind method called immediately.
+226. bind method always create a new function, then called swparetly.
+227. partial functions are functins in whicj soeme parameters are pre defined.
+228. another use case of bind method is using abjects with addEventListener.
+229. when evenlistener calls a function then this keyword belong to the html element.
+230 when event listener calls a function(call back function)then this keyword does not belong to the object.
+231. another use case of bind function is partial application.
+232. grid function is function returniing another funtion.
+233. we can use slice method for shallow copy of an array.
+234. slice method does not mutate the original array. it makes a separate copy.
+235. splice method mutate the original array.
+236. reverse method will reverse an array.
+237. reverse method will mutate the array.
+238. the index number can be taken from foreach method using callbackfunction(item, index, array){};
+239. jump statements like break, continue cannot be used in forEach loop.
+240. forEach methos is also available on sets and maps.
+241. array of arrays is called maps.
+242. maps is nothing but 2-d array.
+243. each array in map will consist of key and value pair : ['usd' , 'united states dollar'].
+244. in js _ means throwaway variable.
+245. hiding is changing the opacity = 0,
+246. insertAdjacentHTML -- adds html through js.
+247. afterbegin will add the latest to the top.
+248. beforeend will add latest to the bottom.
+249. js have thrree important array methods like map, filter, reduce.
+250. map is similar to foreach array but gives new array.
+251. filter will give only the filtered result in a new array.
+252. reduce will have an accumulater and currebt, creates a snowball effect.
+253. reduce will not result in a new array.
+254. map and filter will produce new array.
+255. like foreach method map also has 3 parameters (element, index, array).
+256. sideeffects using foreach.
+257. regular for loop does not allow chaining.
+258. like foreach method filter also has 3 parameters(element, index, array).
+259. the reduce method also has 4 parameters (accumulator, element, index, array).
+260. the reduce method also has a initial value array.reduce(callbackfunction, initialValue);
+261. reduce does not return a array, so it must be the last method in the chaining.
+262. chaioning methods wiil reduce performance in large arrays.
+263. it is good practice to avoid mutating arrays like splice and reverse method.
+264. find method returns only first element.
+265. filter method returns an array of elements.
+266. function(e){e.preventDefault;} will stop the page from refreshing during form submission.
+267. findIndex is related to find method but it gives you index number.
+268. indexOf also gives index number.
+269. but in findIndex we can do complex operations.
+270. array.find() and array.findindex() added in ES6, so it will not support in old browsers.
+271. includes methods only finds equality while some method will give results of a condition.
+272. every is a method where all the elements satifies the condition.
+273. flat method on an array converts 2-d array into 1-d array.
+274. flat and flatMap method are introduced in 2019 hence not available on old browsers.
+275. flat method flattens an array.
+276. flatMap method is nothig but the combination of flat method and map method .
+277. flatMap method should have a callback function which is similar to map method.
+278. flatMap goes only one level deep.
+279. js has built-in sort method.
+280. sort method mutates the original array.
+281. sort method converts numbers to strings and the sorts it.
+282. the callback function of sort method is if(a>b) return 1 else return -1
+283. syntax of fill method is aray.fill(fillnumber/element, startindex, endindex).
+284. fill method will mutate the original array.
+285. syntax of array. from is Array.from({length: 7}, ()=>1);
+286. syntax of array.from is Array.from({length:7}, (curr, i) => i+1);
+286.querySelectorAll is not a real array.
+287. queryselectorAll is a node list.
+288. addEventListener can be added to other elements than a button.
+289. from method has mapping callback as a 2nd para,eter.
+290. methods mutating arrays are push, unshift, pop, shift, splice, reberse, sort, fill.
+291. all numbers in js are floating point numbers .
+292. php and ruby has same number sysytem.
+293. so js, php and ruby is not suitable for financial and scientific calculation.
+294. + sign makes type coersion.
+295. for parsing string should start with a number.
+296. the parseInt function is having 2nd parameter as the number-system.
+297. parseInt is a global object but is not encouraged.
+298. isNaN is not advised to check numbers.
+299. isFinite is advised to check numbers.
+300. isInteger is advised to check numbers.
+301. ().toFixed will fill zeros after decimal.
+302. boxing is converting string to number to string.
+303. for big int use 'n' at the end of the number.
+304. bigInt constructor is used with small numbers.
+305. cannot mix bigInt with other number types.
+306. unix time is 01/01/1970.
+307. converting date format to number is called time-stamp.
+308. iso language code table http://www.lingoes.net/en/translator/langcode.htm
+309. object.intl is used for internationalzation of date .
+310. navigator.language will give the locale of the system on its running.
+311. options is used in Intl.NumberFormat('en-IN', options).
+312. options is an object.
+313. there are 2 types of timers - setTimeout & setInterval
+314. setInterval will run only once after few seconds.
+315. setInterval will run frequently after few seconds.
+316. clearTimeout will clear the setTimeout.
+317. clearInterval will clear the setInterval.
+318. href='#' will make the web page to move to the top.
+319. DOM is an interface between js and browser.
+320. document.documentElement.
+321. nodelist is different from html collection.
+322. htmlCollections will be updated automatically.
+323. nodeList will not be updated automatically.
+324. CREATING AND INSERTING HTML ELEMENTS.
+325. insertAdjacentHTML is mostly used for creating and inserting html elements.
+326. document.createElement('div') will create a div element.
+327. classList.add is used to add classname to the created html element.
+328. prepend method will insert the html element before the selected eement.
+329. prepend wil make the first child.
+330. append will make the last child.
+331. cloneNode(true) will make the element in both the places.
+332. before and after methods called on the selected element will make the insetion of eleemnts before and after.
+333. remove() method is used to delete the html element.
+334. early header.parentElement.removeChild(message) is used for deleting .
+335. style in js should be camel cases.
+336. getComputedStyle gives the styles of the html elements.
+357. getComputedStyle comes as a string.
+358. custom property can be set only by using document.document.style.setProperty
+359. dataset/data- is an attribute for selecting data.
+360 datasets are mostly used when we store data in user interface.
+361. element.getBoundingClientRect() --> will give the boundaries.
+362. e.target.getBoundingClientRect() gives the co-ordinates of clicked element.
+363. document.documentElement.clientHeight will give the height of the client.
+364. document.documentElement.clientWidth will give the client's width.
+365. window.scrollTo(left, top) will scroll the window by the specified argument.
+366. element.scrollIntoView({behaviour: 'smooth'}) will smoothly scroll into the element.
+367. mouseenter is a event like click 
+368. element.onmouseeneter is an property which does not require addEventListener.
+369. removeEventListener will remove the click function.
+370. when an element has many parents and an event is happened in the last child element this phonomena is called capturing.
+371. bubling is whwn a parent and child element have same functions then the function executed twice, this is called bubbling.
+372. event.currentTarget 
+373. e.stoppropogation()
+374. to capture events at the capturing phase use 3rd parameter in addEventListener as true.
+375. capturing not used these days.
+376. event delegation will increase js performance.
+377. element.childNodes will give the array of exixting nodes.
+378. element.children will give the html collections.
+379. element.firstElementChild is the first element of the parent.
+380. element.lastElementChild is the last element.
+381. parentNode
+382. parentElement.
+383. element.closest()
+384. querySelector will find the child.
+385. closest will find the parent.
+386. element.previousElementSibling
+387. element.nectElementSibling.
+388. previousSibling.
+389. nextSibling.
+390. menu fadding
+391.  mouseenter will not bubble
+392. mouseover will bubble
+393. scroll event has bad performance especially in mobiles.
+394. intersection of server api
+395. revealing elements on scroll is a beautiful effect on a aweb page.
+396. sliders
+397. DomContentLoaded
+398. jquery uses ready function. document.ready();
+399. window.addEventListener('load', ..)
+400. window.addEventListener('beforeunload', ..)
+401. defer and Async
+402. programming pradigm means how we organise code.
+403. before oops , there were spagetti code.
+404. creating instance of an class is instantiation.
+405. objects are linked to prototype object.
+406. any object can use prototype's method , this is called prototypal inheritance.
+407. constructor function.
+408. no commas should be used in class.
+409. instanceOf check the object belongs to the class.
+410. never create a function inside a class, it will lack performance.
+411. isPrototypeOf
+412. hasOwnProperty
+413. prototype chaing
+414. classes are not hoisted even it is class declaration.
+415. classes are first class citizens
+416. classes are executed in strict mode.
+417. getters and setters
+418. get and set in objects are properties.
+419. setters are used for validation.
+420. _ convention in setters
+421. Array.from() is a static method.
+422. static methods
+423. Object.create()
+424. inheritance.
+425. child.prototype = Object.create(parent.prototype)
+426. console.dir outputs properties
+427. if two same methods appears in child and parent, then js will take the method of the child.
+428. super()
+429. data encapsulation and data privacy.
+430. chaining methods
+431.  private fields starts with #
+432.  static fields only available on the class.
+433. private methods not available , we can fake it by _ before a variable.
+434. setter method should use _ to set property with same name as method.
+435. static methods only available on the class.
+436. navigator.geolocaion.getCurrentPisition()
+437. leaflet
+438. openstreetmap free api
+439. submit is an event of the form.
+440. focus is the html action 
+441. change is the drop down event listener.
+442. local storage is blocking.
+443. use local storage for small data.
+444. we will lose prototype chain if we convert object to string and same strig to object.
+445. Online Api s 
+446. AJAX
+447. json data format is mostly used today , xml was obsolte now.
+448. public APIs have ton of apis
+449. Without CORS 3rd party apis cannot  be used.
+450. Api endpoint is also called urls.
+451. CALL BACK hell.
+452. promises is used to avoid callback hell.
+453. fetch returns a promise.
+454. then method is used for success state.
+455. to read the response use json
+456. flat chain of promises.
+457. two ways of handling errors method1 : second parameter in then function.
+458. geocode.xyz
+459. inside async function there may be one or more await 
+460. try catch is used for error handling in async await
+461. fetch and async/await returns a promise.
+462. never work async function without try-catch block.
+463. Promise.all is a combinator function.
+464. Promise.all helps to asunc parallel
+465. promise.race will return when one promise is fulfilled.
+466. promise.all will shortcircuit when one promise is rejected.
+467. promise.all requires an image.
+468. 3rd party modules -- npm
+469. transpiling/ polyfilling is a term converting es6 to old ES5 using babel
+470. bundling is join all modules.
+471. bundling is done by using webpack or parcel.
+472. webpack is handler
+473. parcel is easy (0-configuration).
+474. import dependency.
+475. export public api.
+476. import is hoisted.
+477. type="module"
+478. variables of modules are private.
+479. named export
+480. default export.
+481. default export will give only one thing.
+482. do not mix named export and default export.
+483. common js modules
+484. node js modules aew commonjs
+485. create new file in cmd: touch notepad1 notepad2 notepad3
+486. to delete a file use rm in linux and del in windows.
+487. mv file path
+488. rmdir
+489. mkdir
+490. delete a folder rm -R filename.
+491. npm init --> creates a pakage.json file 
+492. npm install is same as npm i
+493. loadash is a popular js library.
+494. common js requires module bundler.
+495. look for loadashes -- here es means es module
+496. even if modules folder is deleted ise node i or node install command will get the dependency automatically.
+497. npm i parcel --save-dev
+498. npx parcel index.html
+499. npm i parcel@1.12.4
+500. npm uninstall parcel
+501. hot module replacement
+502. module.hot.accept() --> maintains the state.
+503. npx scripts used to run locally installed modules.
+504. json ==> scripts ==> "start": "parcel index.html"
+505. npm run start
+506. prcel command to remove unwanted code "parcel build index.html".
+507. parcel cannot convert find, promise to ES5.
+508. 'core-js/stable'
+509. babel
+510. npm install regenerator-runtime.
+511. emoji count as 2 characters.
+512. imperative code vs declarative code.
+513. declarative code is functional programming.
+514. modern javascript uses functional programming.
+515. side-effect ==> modifying data outside function.
+516. state --> data is never modified.
+517. state being immutable.
+518. object.freeze is immutable
+519. Object.freeze is immutable at first level but changes in second level.
+520. impure function is one which makes sideeffects.
+521. currying.
+522. API call is the first step.
+523. if ok is false, then code for error.
+524. fail message.
+525. data.message
+526. res.status
+527. npm fractional
+528. mvc
+529. publisher-subscriber pattern
+530. hashchange event
+531. pagination
+532. isEqualNode
+533. nodeValue
+534. bookmarks
+535. netlify only works for front end applications without database and server-side code.
+536. netlify is used for continous integration.
+537. surge is free hosting service like netlify.
+538. netlify uploads our files to cdn, so our files are available at many servers across the world.
+539. git init
+540. git config --global user.name "...." 
+541. git config --global user.email "...."
+542. .gitignore
+543. git status
+544.  git add .
+545. git add -A
+546. git commit -m "message"
+547.  git reset --hard HEAD
+548. git log 
+549. GIT BRANCH
+550. q - quit 
+551. git branch new-feature 
+552. git checkout new-feature
+553. git merge new-feature
+554. git cheat sheet
+555. git remote add origin https://......
+556. git push origin main
+557. touch README.md
+
+JAVASCRIPT BY ANGELA
+1. Mosaic is the oldest browser followig netscape navigator.
+2. switching off javascript in browser will provide a ad-free webpage.
+3. js in interpreted programming language.
+4. java is compiled programming language
+5. to write multiple lines in console use shift+enter.
+6. another way of multi-line scripting in console is sources-->snippets
+
+JQUERY BY ANGELA
+1. www.minifier.org is a website which is used to minfy js and css files.
+2. minifier reduces the files size thereby speeds up loading time.
+3. addClass, removeClass, toggleClass, hasClass
+4. hasClass returns boolean.
+5. appends inserts inside target element.
+6. after inserts outside target element.
+7. similarly prepend is inside and before is outside.
+8. remove method is used to remove an element.
+9. hide(), show, toggle is an important animations.
+10. fadeIn, fadeOut, fadeToggle are important animations.
+11. slideUp, slideDown, slideToggle are important animations.
+12. slideUp reduces height
+13. fadeOut reduces opacity.
+
+
+HYPER BY ANGELA
+1. to download hyper terminal go to hyper.is.
+2. git bash provides powerful unix systems to windows.
+3. bash is the outer layer of kernel.
+4. Bash = Bourne Again Shell.
+5. bash is the CLI for the Unix systems.
+6. hackertyper.net is a website that will proxy your tying as a hacker.
+7. ls stands for list.
+8. control + A is start of the line.
+9. control + E is end of the line.
+10.  mkdir
+11. touch script.js
+12 open script.js
+13. open -a code script.js
+14. replace start with open for windows.
+15. rm filename
+16. pwd - present working directory.
+17. rm * (removes all files)
+18. touch s1.js s2.js s3.js.
+19. rm -r folderName/
+20. learn enough command line to be dangerous is a website.
+21. cURL -- client Url.
+
+BAKEND -- ANGELA
+1. node.js
+2. server || application || database
+3. server -- serves html, css, js
+4. application -- business logical
+5. database == passwords
+6. 
+
+NODE BY JVL code
+1. array and objects are mutable, so spread operator or slice method only to be used.
+2. if spread operator is used as a parameter in a function then it is called rest operator.
+3. core modules comes with node installtion.
+4. one of the core module is http.
+5. most used core modules are fs, http, https, path, os, ../
+6. http module is used to create server.
+7. listen method with port number is used on the server.
+8. request has varous methods like request.url, request.method and request.headers.
+9. response can be sent by using response object (res) and their methods like res.setHeader(). 
+10. setHeader method is used to tell the server the type of the content.
+11. write() method is used to write html tags inside it.
+12. end() is given when the response code is completed.
+13. form has a attribute called action="submit" which will take place when the submit clicked .
+14. form tag can make a reuest to a url as per the action attribute.
+15. redirection or routing is done by setHeader('Location', '/').
+16. writing a file can be done using fs.writeFileSync('fileName.txt', 'Hello world');
+17. streams and buffers are used in trasfering data along with request req object.
+18. req.on('data', ) will be used to get the data from request req data.
+19. streams and buffers are the methods in which node receives datafrom request.
+20. node is event driven and non-blocking.
+21. writeFileSync() is a blocking code, i.e. it will stop the next line from executing.
+22. while writeFile is an asynchronous function i.e. non-blocking.
+23. event loop finishes a request if the job is very small/
+24. when the job is large like downloading thr event loop starts the worker pool for downloading and it goes back to the other requests.
+25.  when the worker pool finishes the job , it sends a call back trigger to the event loop.
+26. event loop while waiting for the listener, it calls the timers like setTimeout and setInterval, 
+27. then pending callback like I/O that were reffered.
+28. then poll new I/O 
+29. the check --> execute setImmediate().
+30. process.exit will terminate the event loop.
+31. to export a function from one js file use module.exports = functionName.
+32. module.exports = {} is a javascript
+33. exports is a node
+34. npm - node package manager
+35. first step in npm is creating a config file.
+36. npm init --> creates a config file
+37. package --> scripts --> start
+38. npm start is the command for running the app.
+39. inside the package-->scripts-->start type node app.js.
+40. to execute custom start command use npm run start-server.
+41. nodemon aka nodemonitor is a package which is used to restart node when a change is made.
+42. most commomly used 3rd party packages are modemon, express, body-parser
+43. these npm packages are freely available in a public npm repository.
+44. production dependency --> which is required during production phase after development phase, c. npm install nodemon --save
+45. development phase --> which can be used only in the development phase , C. npm install nodemon --save-dev
+46. -g flag will install the package for the computer, while others will install the package for the project.
+47. npm install command will automatically install all the dependies even if the node_modules gets deleted.
+48. nodemon  --> use cmmand nodemon app.js
+49. Adonis.js (based on laravel) is similar to express.js
+50. koa is similar to express.js
+51. sails.js is similar to express.js
+52. body-parser will accept all formats like inage, video, audio, text, etc ..
+53. in express we have to specify the type.
+54. npm init -y will create a package.json that automatically generated with all enter.
+55. cannot get / means servr started but not outcome.
+56. the page cannot be found error means no server is started.
+57. app.use() is a function that will be used for wrting producrtion code.
+58. in express js all functions are called middleware.
+59. next() function will move to next app.use() only after finising the first app.use().
+60. sending responses in express.
+61. res.send() --> will be used to send responses.
+62. res.send() --> does not require headers.
+63. handling different urls
+64. always use '/' at the last because any path starting with /... will assume it to be /.
+65. body-parser is an npm package which is used to convert chunk to text.
+66. body-parser has a method urlencoded
+67. urlencoded method of body parser has options like extended:true
+68. to get data correctly use app.use(dataParser.urlencoded());
+before all app.use().
+69. app.post() will allow only if it is a post method.
+70. app.get() will allow only if the url method is get.
+71. app.get() and app.post() re router methods.
+72. express.Router() will route the various paths from one file to another file.
+73. Sending error Responses.
+74. res.status(404).send(...) --> is used to send status code.
+75. url filtering is the way of adding domain names.
+76. creating html pages in express is very simple.
+77. to send html file use code res.sendFile(path.join(__dirname,'../', 'views', 'shop.html')).
+78. to get the main file name as an constant use code as 
+  const rootDir = path.dirname(require.main.filename);
+79. serving static files like css, image,js, etc..
+80.  to get static files use express.static(staicFolderPath);
+81. templating engines
+82. there are 3 types of templating engines
+    1.PUG 
+    2.EJS 
+    3.HandleBars.
+83. PUG Templating Engine.
+84. npm install PUG
+85. app.set() is a special feature.
+86. render is used in place of sendFile.
+87. always use render when any templating engine is used.
+88. the syntax of variables in pug is #{var1}.
+89. foreach in js == each in pug.
+90. empty lines should be removed in pug file.
+91. 7.15
+92. 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

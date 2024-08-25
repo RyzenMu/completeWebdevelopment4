@@ -1,0 +1,11 @@
+{
+  "name": "npm-package",
+  "version": "1.0.0",
+  "description": "basics of npm config ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lokesh",
+  "license": "ISC"
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{docTitle}}</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Explore the World</h1>
+  <div class="destinations">
+    {{#each destinations}}
+      <div class="destination">
+        <img src="img/{{image}}" alt="{{name}}" width="200">
+        <h2>{{name}}</h2>
+        <p>{{description}}</p>
+      </div>
+    {{#if olympics }}
+        <h1>2024 Olympics</h1>
+    {{/if}}
+    {{/each}}
+    {{!-- {{#if (name === 'Paris')}}
+        <h1> 2024 Olympics</h1>
+    {{/if}} --}}
+    <div>
+      <ul>
+      {{#each courses}}
+      <li>{{this}}</li>
+      {{/each}}
+      </ul>
+    </div>
+   {{#if courses}}
+   <h1>courses available</h1>
+   {{else}}
+    <h1>courses not available</h1>
+  {{/if}}
+  </div>
+  {{> header}}
+</body>
+</html>

@@ -1,0 +1,16 @@
+<%- include('header.ejs')%>
+<main>
+    <h1>Welcome, <%= name %>!</h1>
+    <p>This is your welcome page.</p>
+    <% if (courses) { %>
+        <% courses.forEach((item) => { %>
+            <li><%= item %></li>
+        <% }) %>
+    <% } else { %>
+        <p>No courses available</p>
+    <% } %>
+    </main>
+
+    <%- include('footer.ejs')%>
+
+ 

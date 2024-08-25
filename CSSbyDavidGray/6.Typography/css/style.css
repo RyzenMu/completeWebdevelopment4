@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+body {
+    padding: 5%;
+    font-size: 1.5rem;
+}
+input, button {
+    font: inherit;
+}
+p {
+    /* text-decoration: underline; /*line-through, none  */
+    /* text-transform: capitalize; /*lowercase, uppercase*/
+    /* text-align: justify; */ 
+    /* text-indent: 2em;
+    line-height: 1.7;
+    letter-spacing: 0.1em;
+    word-spacing: 0.7em; */ 
+    /* font-weight: 900; */
+    /* font-style: oblique; */
+    font-family: serif;/*academics and newspaper uses serif*/
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: cursive;
+    font-family: fantasy;
+    font-family: sans-serif ;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Glitch Pop', system-ui;
+    color: black;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+span {
+    text-decoration: line-through;
+}

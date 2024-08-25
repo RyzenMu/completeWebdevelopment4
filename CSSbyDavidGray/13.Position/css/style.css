@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    min-height: 200vw;
+}
+
+.outer-container {
+    border: 3px dotted #000;
+    width: 75vw;
+    height: 85vh;
+    margin:1.1em auto;
+    position: relative;
+}
+.inner-container {
+    border: 2px solid #00f;
+    width: 40vw;
+    height: 50vh;
+    margin: 5em auto;
+    
+}
+
+.box {
+        width: 200px;
+        height: 120px;
+        color: #fff;
+        padding: 1rem
+}
+
+.absolute
+{
+    background-color: #00f;
+    position: absolute;
+    top: -1000px;
+    left: 0px;
+    z-index: 1;
+}
+
+.relative {
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.fixed {
+    background-color: green;
+    position: fixed;
+    top: 100px;
+}
+
+.sticky {
+    background-color: #000;
+    position: sticky;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

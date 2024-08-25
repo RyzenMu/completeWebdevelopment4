@@ -1,0 +1,96 @@
+
+/*begin reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+}
+/*end reset*/
+
+/*utility classes*/
+.nowrap {
+    white-space: nowrap;
+}
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+/* end utility classes*/
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-color: aliceblue;
+    background-image:  linear-gradient(steelblue,purple, white), url(../img/pattern1.png);
+    background-image: linear-gradient(
+    to bottom,
+    rgba(70, 131, 180, 0.13),rgba(128, 0, 128, 0.274),
+    rgba(255, 255, 255, 0.192)
+  ), url("../img/pattern1.png");
+  background-repeat: no-repeat,repeat;
+  background-position: top  right;
+  background-size: 120% auto;
+  background: repeat-x right center url("../img/pattern1.png"), no-repeat linear-gradient(to left, steelblue, white);
+}
+
+.clip {
+    font-weight: 800;
+    font-size: 5rem;
+    text-align: center;
+    background-image: url(../img/pattern1.png);
+    background-size: 80%;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;;
+    color: rgba(0, 0, 0, 0.418);
+}
+.container {
+    background-color: rgb(251, 210, 156);
+    background-image: url('../img/pattern1.png');
+    background-repeat: repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center center;
+}
+.hero {
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    background-color: hsla(0, 0%, 80%, 0.404);
+    
+}
+.h1 {
+    font-size: 200%;
+    color: black;
+    text-shadow: 2px 2px 5px black;
+    /* background-color: hsla(0, 0%, 100%, 0.404); */
+    padding: 0.25rem;
+    border-radius: 10px;
+}
+.profile-pic-figure {
+    width: 35%;
+}
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 4px double gray;
+    border-radius: 50%;
+}
+.example {
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+
+}
+
+.example img {
+    width: 35%;
+    height: auto;
+}

@@ -1,0 +1,33 @@
+body {
+    background-color: #ff9800;
+}
+
+button {
+    background-color: aquamarine;
+}
+
+.big-title {
+    font-size: 10rem;
+    color: rebeccapurple;
+    font-family: cursive;
+}
+
+.margin-50 {
+    margin-left: 350px;
+}
+
+#france {
+    display: block;
+    margin : 20px;
+}
+
+div {
+    display: flex;
+    border: 2px solid black;
+    width:100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}

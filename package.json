@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "joi": "^13.7.0",
+    "live-server": "^1.2.2",
+    "uuid": "^7.0.3"
+  }
+}
